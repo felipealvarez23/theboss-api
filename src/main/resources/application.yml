@@ -1,0 +1,14 @@
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  application:
+    name: theboss-api
+
+server:
+  port: 8001
+
+jobs:
+  classroom:
+    next: "0 0/1 * * * *"
+
+
